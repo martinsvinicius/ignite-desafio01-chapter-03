@@ -1,1 +1,27 @@
 // TODO
+.container {
+  max-width: 740px;
+  margin: 8rem auto;
+  padding: 0 2rem;
+
+  .loadMore {
+    border: 0;
+    color: var(--text-highlight);
+    background: transparent;
+    font-weight: 600;
+    margin-top: 6rem;
+    font-size: 1.8rem;
+  
+    transition: all .2s;
+  
+    &:hover {
+      filter: brightness(.8);
+    }
+  }
+}
+
+.header {
+  max-width: 740px;
+  margin: 8rem auto;
+  padding: 0 2rem;
+}
