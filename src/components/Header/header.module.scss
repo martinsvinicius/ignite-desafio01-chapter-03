@@ -1,1 +1,12 @@
-// TODO
+.container {
+  max-width: 740px;
+  height: 100px;
+  background: var(--background-main);
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  a {
+    display: block;
+    padding: 4rem 0;
+  }
+}
